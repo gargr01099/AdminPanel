@@ -39,7 +39,7 @@ export const AdminMarketCard: React.FC<Props> = ({
             </span>
             <span className="text-base">
               {parseFloat(Web3.utils.fromWei(totalAmount, "ether")).toFixed(2)}{" "}
-              SOREN
+              POLY
             </span>
           </div>
           <div className="flex flex-col space-y-1">
